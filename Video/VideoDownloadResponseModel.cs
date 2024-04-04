@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BDCSharpModels.Video
 {
-    public class VideoInfoModel
+    public class VideoDownloadResponseModel
     {
         public string UniqueID { get; set; } = string.Empty;
         public string WebPageURL { get; set; } = string.Empty;
@@ -21,6 +21,7 @@ namespace BDCSharpModels.Video
         public string PreviewImageURL {  get; set; } = string.Empty;
         public string PreviewImagePath { get; set; } = string.Empty;
         public byte[] PreviewImageBytes { get; set; } = new byte[0];
+        public string OriginalDownloadURL { get; set; } = string.Empty;
         public bool Error { get; set; } = false;
         public string ErrorMessage { get; set; } = string.Empty;
     }
