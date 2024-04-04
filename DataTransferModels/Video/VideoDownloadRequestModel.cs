@@ -4,12 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BDCSharpModels.Video
+namespace BDCSharpModels.DataTransferModels.Video
 {
     public class VideoDownloadRequestModel
     {
-        public string APIRequestURL { get; set; } = string.Empty;
-        public string DownloadURL { get; set; } = string.Empty;
+        public string VideoURLForDownload { get; set; } = string.Empty;
         public string User { get; set; } = string.Empty;
     }
 }
