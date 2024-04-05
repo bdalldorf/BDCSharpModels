@@ -21,6 +21,9 @@ namespace BDCSharpModels.Models.Video
         public string PreviewImagePath { get; set; } = string.Empty;
         public byte[] PreviewImageBytes { get; set; } = new byte[0];
         public string OriginalDownloadURL { get; set; } = string.Empty;
+        public string APIFileDownloadURL { get; set; } = string.Empty;
+        public string APIUpdateVideoImageURL { get; set; } = string.Empty;
+        public string APIUpdateHTMLPageURL { get; set; } = string.Empty;
         public bool Error { get; set; } = false;
         public string ErrorMessage { get; set; } = string.Empty;
     }
