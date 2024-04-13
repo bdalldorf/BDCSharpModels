@@ -14,8 +14,11 @@ namespace BDCSharpModels.Models.Video
         public string WebPageTemplatePath { get; set; } = string.Empty;
         public string VideoTitle { get; set; } = string.Empty;
         public string VideoDescription { get; set; } = string.Empty;
+        public int VideoPreviewStartTime { get; set; } = 0;
         public string VideoFileURL { get; set; } = string.Empty;
         public string VideoFilePath { get; set; } = string.Empty;
+        public string VideoFileStreamURL { get; set; } = string.Empty;
+        public string VideoFileStreamPath { get; set; } = string.Empty;
         public byte[] VideoBytes { get; set; } = new byte[0];
         public string PreviewImageURL { get; set; } = string.Empty;
         public string PreviewImagePath { get; set; } = string.Empty;
