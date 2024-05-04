@@ -14,6 +14,7 @@ namespace BDCSharpModels.DataTransferModels.Video
         public string WebPageFilePath { get; set; } = string.Empty;
         public string VideoTitle { get; set; } = string.Empty;
         public string VideoDescription { get; set; } = string.Empty;
+        public string VideoFileTags { get; set; } = string.Empty;
         public int VideoPreviewStartTime { get; set; } = 0;
         public string VideoFileURL { get; set; } = string.Empty;
         public string VideoFileStreamURL { get; set; } = string.Empty;
