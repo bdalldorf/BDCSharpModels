@@ -26,6 +26,7 @@ namespace BDCSharpModels.DataTransferModels.Video
         public string APIFileDownloadURL { get; set; } = string.Empty;
         public string APIUpdateVideoImageURL { get; set; } = string.Empty;
         public string APIUpdateHTMLPageURL { get; set; } = string.Empty;
+        public bool IsVideoDownloaded { get; set; } = false;
         public bool Error { get; set; } = false;
         public string ErrorMessage { get; set; } = string.Empty;
     }
