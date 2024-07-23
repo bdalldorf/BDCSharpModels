@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RazorUIComponentLibrary.BDCSharpModels.Models.Image
+namespace BDCSharpModels.Models.Image
 {
     public class AvatarModel
     {
