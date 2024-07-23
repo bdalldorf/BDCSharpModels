@@ -8,7 +8,7 @@ namespace BDCSharpModels.Models.Image
 {
     public class AvatarModel
     {
-        string ID { get; set; } = string.Empty;
-        string FilePath { get; set; } = string.Empty;
+        public string ID { get; set; } = string.Empty;
+        public string FilePath { get; set; } = string.Empty;
     }
 }
